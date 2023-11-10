@@ -89,6 +89,14 @@ body{
  .box9{
   margin-left: 9%;
  }
+.box7{
+  display: flex;
+  margin: 20px 30px;
+  justify-content: center;
+  color: white;
+  rotate: 20% 40%;
+  /* box-shadow: 5px 5px 15px 5px rgb(146, 7, 30); */
+}
 
  
  
