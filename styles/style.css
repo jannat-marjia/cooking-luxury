@@ -1,0 +1,35 @@
+body{
+  background-color: rgb(2, 2, 46);
+}
+
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    margin: 20px 30px;
+
+    
+}
+.navBer li{
+  display: inline;
+  margin: 20px 30px;
+  color: white;
+  /* width: 40%; */
+  justify-content: center;
+
+}
+.box{
+  font-size: 20px;
+  color: rgb(204, 13, 51);
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.child{
+  display: inline;
+  /* margin:20px 30px ; */
+  padding: 20px 30p;
+}
+
+
+
