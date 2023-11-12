@@ -1,5 +1,7 @@
 body{
   background-color: rgb(11, 11, 41);
+  margin: 0%;
+  padding: 0;
 }
 
 .navContainer {
@@ -95,8 +97,9 @@ body{
  }
 .box7{
   display: flex;
-  margin: 20px 30px;
-  justify-content: center;
+  width: 30vw;
+  margin: 40px auto;
+  justify-content: space-between;
   color: white;
   rotate: 20% 40%;
   /* box-shadow: 5px 5px 15px 5px rgb(146, 7, 30); */
@@ -130,20 +133,21 @@ body{
 }
 .order{
   background-image: url(/images/istockphoto-1018141890-612x612.jpg);
-  width: 40vw;
+  width: 60vw;
   height: 60vh;
+  background-size: cover;
   background-repeat: no-repeat;
-  /* padding: 20px 5px; */
-  margin: 70px 0px;
-  /* border: 1px solid red; */
-  margin-left: 30%;
+  opacity: 1;
+  margin: 70px auto;
+ 
 }
 .footerContainer{
   display: flex;
-  padding: 30px ;
+  padding: 40px;
+ 
   justify-content: space-around;
-  background-color: rgb(41, 37, 37);
-  color: rgb(240, 228, 228);
+  background-color: rgb(24, 22, 22);
+  /* color: rgb(80, 76, 76); */
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -153,5 +157,45 @@ body{
   } */
 .footerItem li{
   list-style-type: none;
-  padding: 10px;
+  padding: 4px;
+  color:rgb(165, 154, 156) ;
+}
+.foodButton{
+  border-radius: 10px;
+   padding: 15px 70px; 
+   background-color: rgb(4, 4, 73);
+    box-shadow: 2px 1px 2px 2px rgb(161, 6, 32);
+    rotate: -52deg;
+    margin-bottom: 60px;
+}
+.foodButton:hover{
+  box-shadow: 2px 1px 2px 2px rgb(6, 161, 27);
+
+}
+.bookingField{
+  display: flex;
+  justify-content: space-around;
+  width: 50vw;
+  color: white;
+  margin: 60px auto;
+}
+.orderField{
+ padding: 15px;
+ border: 2px solid white;
+ background-color: transparent;
+ border-radius: 5px;
+
+
+}
+.orderButton{
+  width: 200px;
+  margin: 80px auto;
+}
+.commonButton{
+  background-color: crimson;
+   border-radius: 5px; 
+   padding: 15px 40PX;  
+    text-decoration: none;
+     color: white;
+   
 }
