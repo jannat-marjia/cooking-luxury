@@ -1,56 +1,52 @@
-body{
+body {
   background-color: rgb(11, 11, 41);
   margin: 0%;
   padding: 0;
 }
 
 .navContainer {
-    display: flex;
-    justify-content: space-between;
-    /* border: 1px solid red; */
-    margin: 20px 30px;
-
-    
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+  margin: 20px 30px;
 }
-.navBer li{
+.navBer li {
   display: inline;
   margin: 20px 30px;
   color: white;
   /* width: 40%; */
   justify-content: center;
-
 }
-.box{
+.box {
   font-size: 20px;
   margin: 10px 10px;
   padding: 20px 20px;
   color: rgb(204, 13, 51);
   font-family: Arial, Helvetica, sans-serif;
-  
 }
 
-.child{
+.child {
   display: inline;
   /* margin:20px 30px ; */
   padding: 20px 30p;
 }
-.box3{
-  justify-content: center;
-  /* border: 1px solid red; */
-  width: 20px 30px;
-  margin: 10px 20px;
-
+.detailsButton {
+  background-color: crimson;
+  border-radius: 5px;
+  padding: 10px 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 10px;
 }
-.box2 img{
-  margin-left: 25%;
+.box2 {
   width: 50vw;
-  height: 50vh;
-
-  /* width: 40px 20px 30px; */
-  /* border: 1px solid green; */
-
+  margin: auto;
 }
-.box4{
+.box2 img {
+  width: 100%;
+  height: 60vh;
+}
+.box4 {
   font-size: 25px;
   font-family: serif;
   color: rgb(206, 16, 54);
@@ -58,44 +54,37 @@ body{
   margin: 40px 20px;
   padding: 10px 10px;
   line-height: 10px;
-  /* border: 1px solid red; */
 }
-.box5{
+.box5 {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   width: 30vw;
   height: 40vh;
-  margin: 20px 30px;
   padding: 30px 40px;
-  /* border: 1px solid red; */
   border-radius: 20px;
   box-shadow: 5px 5px 15px 5px rgb(167, 15, 41);
 }
-.box5 img{
+.box5 img {
   width: 15vw;
   height: 25vh;
-  margin: 20px 30px ;
-  /* padding: 30px 40px; */
   border-radius: 20px;
-  /* border: 1px solid red; */
 }
-.box6{
-  /* border: 1px solid yellow; */
+.box6 {
   color: white;
-  /* padding: 20px 10px; */
-  /* margin: 0px 5px; */
-  width: 40vw;
-  height: 40vh;
 }
- .childed{
+.childed {
+  width: 80vw;
+  margin: auto;
   display: flex;
-  justify-content: center;
- }
- .box9{
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.box9 {
   margin-left: 9%;
- }
-.box7{
+}
+.box7 {
   display: flex;
   width: 30vw;
   margin: 40px auto;
@@ -104,8 +93,7 @@ body{
   rotate: 20% 40%;
   /* box-shadow: 5px 5px 15px 5px rgb(146, 7, 30); */
 }
-.parent{
-  
+.parent {
   /* border: 1px solid red; */
   color: white;
   width: 21vw;
@@ -115,23 +103,22 @@ body{
   /* margin: 10px 20px; */
   /* padding: 20px 10px; */
 }
-.childing img{
+.childing img {
   width: 21vw;
   height: 25vh;
   border-radius: 3px;
   /* margin: 5px; */
   /* padding: 0px; */
-
 }
-.boxs{
+.boxs {
   display: flex;
   justify-content: space-around;
 }
-.images img{
+.images img {
   justify-content: center;
   /* border: 1px solid red; */
 }
-.order{
+.order {
   background-image: url(/images/istockphoto-1018141890-612x612.jpg);
   width: 60vw;
   height: 60vh;
@@ -139,13 +126,12 @@ body{
   background-repeat: no-repeat;
   opacity: 1;
   margin: 70px auto;
- 
 }
 
-.footerContainer{
+.footerContainer {
   display: flex;
   padding: 40px;
- 
+
   justify-content: space-around;
   background-color: rgb(24, 22, 22);
   /* color: rgb(80, 76, 76); */
@@ -156,47 +142,75 @@ body{
   list-style-type: none;
   padding: 4px;
   } */
-.footerItem li{
+.footerItem li {
   list-style-type: none;
   padding: 4px;
-  color:rgb(165, 154, 156) ;
+  color: rgb(165, 154, 156);
 }
-.foodButton{
+.foodButton {
   border-radius: 10px;
-   padding: 15px 70px; 
-   background-color: rgb(4, 4, 73);
-    box-shadow: 2px 1px 2px 2px rgb(161, 6, 32);
-    rotate: -52deg;
-    margin-bottom: 60px;
+  padding: 15px 70px;
+  background-color: rgb(4, 4, 73);
+  box-shadow: 2px 1px 2px 2px rgb(161, 6, 32);
+  rotate: -52deg;
+  margin-bottom: 60px;
 }
-.foodButton:hover{
+.foodButton:hover {
   box-shadow: 2px 1px 2px 2px rgb(6, 161, 27);
-
 }
-.bookingField{
+.bookingField {
   display: flex;
   justify-content: space-around;
   width: 50vw;
   color: white;
   margin: 60px auto;
 }
-.orderField{
- padding: 15px;
- border: 2px solid white;
- background-color: transparent;
- border-radius: 5px;
-
-
+.orderField {
+  padding: 15px;
+  border: 2px solid white;
+  background-color: transparent;
+  border-radius: 5px;
 }
-.orderButton{
+.orderButton {
   width: 200px;
   margin: 80px auto;
 }
-.commonButton{
+.commonButton {
   background-color: crimson;
-   border-radius: 5px; 
-   padding: 15px 40PX;  
-    text-decoration: none;
-     color: white;
-   
+  border-radius: 5px;
+  padding: 15px 40px;
+  text-decoration: none;
+  color: white;
+}
+
+/* making responsive for mobile device  */
+
+@media screen and (max-width: 768px) {
+  .box2 {
+    width: 80vw;
+    margin: auto;
+  }
+  .childed {
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .box5 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60vw;
+    margin: auto;
+    height: auto;
+  }
+  .box5 img {
+    width: 50vw;
+    /* height: 25vh; */
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+  .box6 {
+    width: 60vw;
+    margin: auto;
+    text-align: center;
+  }
 }
