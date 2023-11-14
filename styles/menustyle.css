@@ -8,7 +8,6 @@ body{
     
     border-radius: 100%;
     border: 2px solid rgb(230, 219, 221);
-    /* border-radius: 10px; */
     box-shadow: 5px 4px 7px yellowgreen;
 }
 .imgBox img{
@@ -41,5 +40,5 @@ body{
     box-shadow:2px 1px 3px rgb(63, 247, 63);
 }
 .buy:hover{
-    background-color: rgb(233, 139, 84);
+    background-color: rgb(8, 57, 97);
 }
