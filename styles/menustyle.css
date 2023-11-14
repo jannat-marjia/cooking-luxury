@@ -1,3 +1,7 @@
+body{
+    background-color: rgb( 11,11,41);
+}
+
 .imgBox{
     width: 300px;
     height: 300px;
@@ -13,6 +17,7 @@
   height: 100%;
 }
 .menuContainer{
+
     display: grid;
     width: 80vw;
     margin: auto;
@@ -32,7 +37,7 @@
     border-radius: 8px;
     text-align:center;
     margin-left: 50%;
-    border: 1px solid crimson;
+    /* border: 1px solid crimson; */
     box-shadow:2px 1px 3px rgb(63, 247, 63);
 }
 .buy:hover{
