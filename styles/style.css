@@ -138,10 +138,6 @@ body {
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
 }
-/* .footerIteam li{
-  list-style-type: none;
-  padding: 4px;
-  } */
 .footerItem li {
   list-style-type: none;
   padding: 4px;
@@ -212,5 +208,40 @@ body {
     width: 60vw;
     margin: auto;
     text-align: center;
+  }
+  
+  .box7 {
+    display: flex;
+    width: 30vw;
+    margin: 40px auto;
+    justify-content:center;
+  
+  }
+  .boxs {
+    flex-direction: column;
+    display: flex;
+    justify-content: sp center;
+  }
+  
+  .parent {
+    width: 50vw;
+    margin: 30px auto;
+    height: 55vh;
+
+  }
+
+  .childing img {
+    width: 50vw;
+    height: 25vh;
+  }
+
+  .order {
+    width: 90vw;
+    height: 60vh;
+  }
+  .footerContainer {
+    display: flex;
+    font-size: 15px;
+    padding: 20px;
   }
 }

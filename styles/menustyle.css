@@ -42,3 +42,13 @@ body{
 .buy:hover{
     background-color: rgb(8, 57, 97);
 }
+
+ @media screen and (max-width:768px) {
+
+    .menuContainer{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    margin: auto;
+ }
+}
